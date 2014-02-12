@@ -10,12 +10,25 @@ body {
 
 /* =Layout
 -----------------------------------------------------------------------------*/
+.units-container {
+    max-width: 960px;
+    margin: 0 auto;
+}
 
 
 /* =Header
 -----------------------------------------------------------------------------*/
 
+header {
+    background: url('../img/stars.jpg') top center repeat-x;
+    padding: 20px 0px;
+}
 
+header h1 {
+    color: #8cb8d1;
+}
+
+header h1.subheader { color: #eee;}
 /* =Nav
 -----------------------------------------------------------------------------*/
 
