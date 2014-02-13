@@ -57,3 +57,18 @@ header h1.subheader { color: #eee;}
 
 /* =Footer
 -----------------------------------------------------------------------------*/
+
+/* =Media Queries
+-----------------------------------------------------------------------------*/
+.main-nav li {float: left !important}
+
+@media only screen and (max-width: 960px) {
+    .units-container {
+        padding: 0 10px;
+    }
+}
+@media only screen and (max-width: 499px) {
+    .main-nav li {
+        float: none !important;
+    }
+}
